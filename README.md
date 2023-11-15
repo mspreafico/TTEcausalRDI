@@ -2,7 +2,11 @@
 
 Code for assessing the **causal effects** of chemotherapy **Received Dose Intensity (RDI)** on survival outcomes in osteosarcoma patients using a **Target Trial Emulation** approach.
 
-- **Causal framework**: Three RDI-based exposure strategies: 1) *standard*, 2) *reduced*, and 3) *highly-reduced* RDI (exposure variable *A*). The outcome of interest is Event-Free Survival (EFS; variable *T*) defined as time from the end of therapy until the first event (local recurrence, evidence of new or progressive metastatic disease, second malignancy, death, or a combination of those events) or censoring at last contact. Investigations are conducted between subgroups of patients characterised by *poor* or *good* Histological Responses (HRe; effect modifier *V*), i.e., the strongest known prognostic factor for survival in osteosarcoma. Exposure-outcome confounders (*L*) are considered.
+- **Causal framework**:
+  - Three RDI-based exposure strategies: 1) *standard*, 2) *reduced*, and 3) *highly-reduced* RDI (exposure variable *A*).
+  - Outcome of interest is Event-Free Survival (EFS; variable *T*) defined as time from the end of therapy until the first event (local recurrence, evidence of new or progressive metastatic disease, second malignancy, death, or a combination of those events) or censoring at last contact.
+  - Investigations are conducted between subgroups of patients characterised by *poor* or *good* Histological Responses (HRe; effect modifier *V*), i.e., the strongest known prognostic factor for survival in osteosarcoma.
+  - Exposure-outcome confounders (*L*) are considered.
 - **Research questions**: *Does reduced chemotherapy RDI lead to an improvement in EFS of patients with osteosarcoma? Does this effect vary among subjects characterized by different HRe?*
 - **Methodology**: Inverse Probability of Treatment Weighting (IPTW) is first used to transform the original population into a pseudo-population which mimics the target randomized cohort. Then, a Marginal Structural Cox Model (Cox MSM) with effect modification is employed. Conditional Average Treatment Effects (CATEs) are ultimately measured as the difference between the Restricted Mean Survival Time of *reduced/highly-reduced* RDI strategy and the *standard* one. Confidence Intervals for CATEs are obtained using a novel IPTW-based bootstrap procedure.
 
