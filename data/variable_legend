@@ -1,0 +1,17 @@
+Variable legend for "toy_dataset.Rdata"
+
+ID:              subject's id
+A:               exposure/RDI-strategy (0: standard; 1: reduced; 2: highly reduced)
+V:               effect modifier/Histological Response (0: poor; 1: good)
+trial:           trial number (BO03; BO06)
+gender:          gender (F: female; M: male)
+age:             age group (child; adolescent; adult)
+motox_rule_pre:  Pre-operative MOTox for rule-specific toxicities
+motox_rule_post: Post-operative MOTox for rule-specific toxicities
+motox_gen_pre:   Pre-operative MOTox for generic toxicities
+motox_gen_post:  Post-operative MOTox for generic toxicities
+efs_status:      Event-Free Survival status (0: censored; 1: with event)
+efs_time:        Event-Free Survival time [months]
+
+
+*MOTox = Multiple Overall Toxicity
