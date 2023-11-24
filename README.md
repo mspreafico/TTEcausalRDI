@@ -13,8 +13,8 @@ Code for assessing the **causal effects** of chemotherapy **Received Dose Intens
 
 ### Reference
 
-Spreafico M. *et al.* (2023). Causal effect of chemotherapy received dose intensity on survival outcome: a retrospective study in osteosarcoma.
-https://arxiv.org/abs/2307.09405
+Spreafico M., Ieva F., Fiocco M. (2023). Causal effect of chemotherapy received dose intensity on survival outcome: a retrospective study in osteosarcoma.
+Available soon on *arXiv*.
 
 
 ### Data Availability
@@ -58,4 +58,4 @@ Details related to the primary analysis of the MRC BO06/EORTC 80931 Randomized C
 - Lewis I.J. *et al.* (2007). Improvement in histologic response but not survival in osteosarcoma patients treated with intensified chemotherapy: a randomized phase III trial of the European Osteosarcoma Intergroup. *Journal of the National Cancer Institute*, 99(2):112-128. doi: 10.1093/jnci/djk015
 
 
-(Last update: November 15th, 2023)
+(Last update: November 24th, 2023)
