@@ -14,7 +14,7 @@ Code for assessing the **causal effects** of chemotherapy **Received Dose Intens
 ### Reference
 
 Spreafico M., Ieva F., Fiocco M. (2023). Causal effect of chemotherapy received dose intensity on survival outcome: a retrospective study in osteosarcoma.
-Available soon on *arXiv*.
+https://arxiv.org/abs/2307.09405
 
 
 ### Data Availability
